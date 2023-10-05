@@ -1,0 +1,52 @@
+.root{
+  --bgcolor:#F5F5F5;
+  --primary:#3498db;
+  --secondText:#333333;
+  --thirdText:#34495e;
+}
+
+.Header{
+  font-style: bold;
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.whatifuare{
+  font-style: bold;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  background-color:#F5F5F5;
+  z-index: 150;
+}
+
+.butwhy{
+  font-style: bold;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  background-color:#F5F5F5;
+  margin-bottom: 200px;
+}
+.fadeText{
+  text-align: center;
+  padding-top: 100px;
+  padding: 20px;
+  margin-bottom: 400px;
+}
+
+.picbox{
+  height: 400px;
+  margin-bottom: 200px;
+  justify-content: center;
+  display: flex;
+  z-index: 0;
+}
